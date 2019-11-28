@@ -14,3 +14,4 @@ Various Types of layouts are used to achieve the desired UI of the app activitie
 Email is being sent through intent.
 Sms is being sent through smsmanager
 Queries are being conducted to send and retrieve data from firebase which is the main backbone of this application approach.
+Further many modifications can be introuced in app like sending email directly from app without using Intent which will further increase its usage and give it more fine structure.
