@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techcom.entrymanagementsystem.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue As..."
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/my_statusbar_color"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_host"
+        android:backgroundTint="@color/my_statusbar_color"
+        android:text="HOST"
+        android:textSize="22sp"
+        android:textColor="@color/white_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/circular_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_host"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_visitor"
+        android:backgroundTint="@color/my_statusbar_color"
+        android:text="VISITOR"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white_color"
+        android:background="@drawable/circular_button"
+        android:textSize="22sp" />
+
+</RelativeLayout>

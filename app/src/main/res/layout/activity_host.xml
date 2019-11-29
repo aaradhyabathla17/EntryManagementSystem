@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techcom.entrymanagementsystem.LoginHostActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG-IN"
+        android:textColor="@color/my_statusbar_color"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:id="@+id/et_HostName"
+                android:layout_marginTop="30dp"
+                android:inputType="textEmailAddress"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:id="@+id/et_HostEmail"
+                android:layout_marginTop="30dp"
+                android:inputType="textEmailAddress"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone"
+                android:id="@+id/et_HostPhone"
+                android:layout_marginTop="30dp"
+                android:inputType="textPassword"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your ID"
+                android:id="@+id/et_Hostid"
+                android:layout_marginTop="30dp"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_login"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="@color/my_statusbar_color"
+                android:background="@drawable/circular_button"
+                android:text="LOG-IN"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

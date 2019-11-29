@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techcom.entrymanagementsystem.CheckinCheckoutActivity"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Entry_As_visitor"
+        android:backgroundTint="@color/my_statusbar_color"
+        android:text="check in"
+        android:textSize="22sp"
+        android:textColor="@color/white_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/circular_button"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/touch_interceptor"
+        android:background="#CC000000"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Entry_As_visitor"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_visitor_exit"
+        android:backgroundTint="@color/my_statusbar_color"
+        android:text="check out"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white_color"
+        android:background="@drawable/circular_button"
+        android:textSize="22sp" />
+    <com.github.aakira.expandablelayout.ExpandableLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:layout_below="@+id/btn_visitor_exit"
+       android:layout_marginTop="20dp"
+        android:padding="8dp"
+        app:ael_expanded="false"
+        android:id="@+id/layout_leave_Visitor">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_leaving_visitor_email"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_go"
+            android:text="GO"
+            android:backgroundTint="@color/my_statusbar_color"
+            android:background="@drawable/circular_button"
+            android:textColor="@color/white_color"
+            android:textSize="22sp"
+            android:layout_marginStart="16dp"
+
+            />
+    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+</RelativeLayout>

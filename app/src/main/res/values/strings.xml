@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EntryManagementSystem</string>
+    <string name="Empty_Field_Message">Empty Field</string>
+
+</resources>

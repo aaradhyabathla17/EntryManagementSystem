@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40127060423",
+    "firebase_url": "https://myapplicationmapnavigation.firebaseio.com",
+    "project_id": "myapplicationmapnavigation",
+    "storage_bucket": "myapplicationmapnavigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40127060423:android:5ce27ad2f45b8938b7a1e2",
+        "android_client_info": {
+          "package_name": "com.techcom.entrymanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40127060423-69teaok61f980aovlti47flaha110st6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techcom.entrymanagementsystem",
+            "certificate_hash": "055acc5d3757713693431959fad4f52cb726cde3"
+          }
+        },
+        {
+          "client_id": "40127060423-03t7lhvc62acerr8h0m70g5he4lrlogj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF3iBzWqptDcY0zIDi-0Hkt75zbOQl-bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40127060423-03t7lhvc62acerr8h0m70g5he4lrlogj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
